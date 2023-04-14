@@ -13,7 +13,7 @@ const App = () => {
           <img src={Babel_Logo} className="logo" alt="babel logo" />
         </a>
         <a href="https://webpack.js.org/" target="_blank">
-          <img src={Webpack_logo} className="logo react" alt="React logo" />
+          <img src={Webpack_logo} className="logo webpack" alt="React logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={React_log} className="logo react" alt="React logo" />
@@ -21,7 +21,7 @@ const App = () => {
       </div>
       <h1>Webpack + React + Babel</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)} class="ctnbtn">
           count is {count}
         </button>
         <p>
